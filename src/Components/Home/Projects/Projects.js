@@ -42,7 +42,7 @@ const Projects = () => {
           <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-500">
               <div>
-                <p className="text-sm">FEATURED</p>
+                <p className="text-sm mt-2">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Bikez Online Shop</p>
                 <p className="text-sm p-2 text-gray-400 secondary-font font-bold">
                   Bikez is a simple e-commerce website for buying and selling
@@ -115,7 +115,7 @@ const Projects = () => {
           <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-500">
               <div>
-                <p className="text-sm">FEATURED</p>
+                <p className="text-sm mt-2">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Shiftus Limited</p>
                 <p className="text-sm p-2 text-gray-400 secondary-font font-bold">
                   Shiftus Limited is a simple product delivery website for
@@ -189,7 +189,7 @@ const Projects = () => {
           <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-500">
               <div>
-                <p className="text-sm">FEATURED</p>
+                <p className="text-sm mt-2">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">
                   Med-City Medical Center
                 </p>
