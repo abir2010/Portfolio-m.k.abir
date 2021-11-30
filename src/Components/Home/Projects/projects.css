@@ -1,0 +1,15 @@
+.image {
+  position: relative;
+  display: inline-block;
+}
+
+.image:hover:before {
+  content: "L i v e  P r e v i e w";
+  display: block;
+  background: rgba(37, 37, 37, 0.5); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  top: 0;
+  right: 0;
+}

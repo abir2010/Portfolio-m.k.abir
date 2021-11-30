@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Bikez Online Shop",
+    "image1": "https://i.ibb.co/6bskzBk/bike-1.png",
+    "image2": "https://i.ibb.co/HDZHYSv/bike-2.png",
+    "image3": "https://i.ibb.co/d22gfdx/bike-8.png",
+    "image4": "https://i.ibb.co/6wJqy3b/bike-6.png",
+    "image5": "https://i.ibb.co/FXCrqfY/bike-5.png",
+    "description": "Bikez is a simple e-commerce website for buying and selling by-cycles. This website is based on two different audience one is user who can register and login using google account. And the other role is for admins they can visit this website and manage the orders placed by any user and also deliver or cancel the order. Admin also have the right to make another user an admin. Therefor this website making project was an integration of both Front ena and Back end side.",
+    "siteInfo1": "Bikez shop is a platform where someone can find their favourite by-cycle through online.",
+    "siteInfo2": "An user can shop and save for later.",
+    "siteInfo3": "In the dashboard section user can see his list of choosen product from he/she can cancel the order also.",
+    "siteInfo4": "User can login using Google or creating a free account.",
+    "siteInfo5": "User can review about the website and can give rating about the website."
+  },
+  {
+    "title": "Shiftus Limited",
+    "image1": "https://i.ibb.co/gy1hzc7/shift-4.png",
+    "image2": "https://i.ibb.co/80Gk3gR/shift-6.png",
+    "image3": "https://i.ibb.co/SRKt3r5/shift-1.png",
+    "image4": "https://i.ibb.co/wN6vT1m/shift-2.png",
+    "image5": "https://i.ibb.co/87Qy6wp/shift-3.png",
+    "description": "Shiftus Limited is a simple product delivery website for deliver products accross the world. This website is based on two different audience one is user who can register and login using google account. And the other role is for admins they can visit this website and manage the orders placed by any user and also deliver or cancel the order. Admin also have the right to make another user an admin. Therefor this website making project was an integration of both Front ena and Back end side.",
+    "siteInfo1": "This full-stack website project is created with React, firebase, react router, node, express, mongodb etc.",
+    "siteInfo2": "This project is built for a international company named shiftus.This company delivers every kinds of product for their customers.",
+    "siteInfo3": "This Delivery Company website has all the features you need.Like AIR FREIGHT SERVICES,ROAD FREIGHT SERVICES,CARGO SHIPPING SERVICES,CITY VAN SERVICE and many more.",
+    "siteInfo4": "One user can login with his mail account and add any service as his need and can remove also in any case.",
+    "siteInfo5": "If an user is logged out he/she can not able to get his service and can not get information of his bookings."
+  },
+  {
+    "title": "Med-City Medical Center",
+    "image1": "https://i.ibb.co/X3Tg2HM/med-2.png",
+    "image2": "https://i.ibb.co/3mxh7Ns/med-3.png",
+    "image3": "https://i.ibb.co/dg1CmYN/med-4.png",
+    "image4": "https://i.ibb.co/CM16wrr/med-5.png",
+    "image5": "https://i.ibb.co/kQrBnBg/med-1.png",
+    "description": "Med-city Medical center is a medical service provider website for patients. This website is based on users.This user friendly website have the firebase authentication so that an user can register and login using google. After login an user can take appointment from here. And can see the available doctors. Therefore this website making project was a Front End based work project.",
+    "siteInfo1": "This project is all about medical center care service through online.",
+    "siteInfo2": "Med-City medical center is like a online clinic for those people who are in emergency.",
+    "siteInfo3": "One can get all the medical care at anytime through this online platform.",
+    "siteInfo4": "This project is based on React and React-Router.",
+    "siteInfo5": "Firebase Authentication has been used for the specific people to get service."
+  }
+]

@@ -1,0 +1,5 @@
+.single_nav:hover{
+  color: rgb(143, 23, 242);
+  border-bottom: 2px solid rgb(162, 0, 255);
+  transition: color 300ms ease-in-out;
+}

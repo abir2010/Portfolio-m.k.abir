@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Blogs from "./Components/Blogs/Blogs";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home/Home";
+import Spinner from "./Components/Spinner/Spinner";
 
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+    setIsLoaded(false);
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!isLoaded ? (
+        <div className="flex items-center justify-center space-x-2">
+          <Spinner></Spinner>
+        </div>
+      ) : (
+        <div>
+          <BrowserRouter>
+            <Header />
+            <Switch>
+              <Route exact path="/">
+                <Home></Home>
+              </Route>
+              <Route path="/home">
+                <Home></Home>
+              </Route>
+              <Route path="/blogs">
+                <Blogs></Blogs>
+              </Route>
+              <Route path="/about"></Route>
+              <Route exact path="*"></Route>
+            </Switch>
+          </BrowserRouter>
+        </div>
+      )}
     </div>
   );
 }
