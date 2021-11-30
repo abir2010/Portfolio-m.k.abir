@@ -3,7 +3,7 @@ import "./projects.css";
 import bikez from "../../../images/bikez/main-2.png";
 import shiftus from "../../../images/shiftus/main-1.png";
 import medCity from "../../../images/med-city/main-3.png";
-import ParticlesBackground from "../Particles/ParticlesBackground";
+// import ParticlesBackground from "../Particles/ParticlesBackground";
 
 const Projects = () => {
   return (
@@ -27,12 +27,6 @@ const Projects = () => {
       </div>
       {/* first project section */}
       <section className="text-gray-200 flex items-center">
-        <div
-          style={{ position: "absolute", zIndex: -1 }}
-          className="hidden lg:block"
-        >
-          <ParticlesBackground />
-        </div>
         <div
           className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md bg-gray-900"
           data-aos="fade-left"
@@ -104,12 +98,6 @@ const Projects = () => {
       {/* second project section */}
       <section className="text-gray-200 flex items-center">
         <div
-          style={{ position: "absolute", zIndex: -1 }}
-          className="hidden lg:block"
-        >
-          <ParticlesBackground />
-        </div>
-        <div
           className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md"
           data-aos="fade-right"
           data-aos-delay="50"
@@ -178,12 +166,6 @@ const Projects = () => {
       </section>
       {/* third project section */}
       <section className="text-gray-200 flex items-center">
-        <div
-          style={{ position: "absolute", zIndex: -1 }}
-          className="hidden lg:block"
-        >
-          <ParticlesBackground />
-        </div>
         <div
           className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-8 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md bg-gray-900 lg:px-2"
           data-aos="fade-left"

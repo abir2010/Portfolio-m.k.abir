@@ -3,7 +3,9 @@ import Typewriter from "typewriter-effect";
 import { saveAs } from "file-saver";
 import "./Banner.scss";
 import bannerImg from "../../../images/banner-img/my-bg2.png";
-import ParticlesBackground from "../Particles/ParticlesBackground";
+// import ParticlesBackground from "../Particles/ParticlesBackground";
+import Particles from "react-particles-js";
+import particlesConfig from "../Particles/Particles-config";
 
 const Banner = () => {
   const saveFile = () => {
@@ -14,13 +16,21 @@ const Banner = () => {
   };
   return (
     <div id="home" className="">
-      <div
-        style={{ position: "absolute", zIndex: -1 }}
-        className="lg:block hidden"
-      >
-        <ParticlesBackground />
-      </div>
       <section className="text-gray-200 lg:h-screen flex items-center justify-center">
+        <div
+          style={{
+            position: "fixed",
+            zIndex: -1,
+            width: "2500px",
+            height: "1000px",
+          }}
+          className="lg:block hidden"
+        >
+          <Particles
+            params={particlesConfig}
+            className="App-particles__container"
+          />
+        </div>
         <div className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-24 py-12 lg:flex-row lg:justify-center lg:gap-32">
           <div
             className="lg:flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
