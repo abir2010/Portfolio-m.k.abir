@@ -24,7 +24,7 @@ const Banner = () => {
             width: "2500px",
             height: "1000px",
           }}
-          className="lg:block hidden"
+          className=""
         >
           <Particles
             params={particlesConfig}

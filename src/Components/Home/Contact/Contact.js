@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="lg:text-left container">
             <h1 className="text-3xl leading-none mb-2 text-gray-400">
               Feel free to
-              <p className="text-6xl my-2 text-gray-200 text-center lg:text-left">
+              <p className="text-6xl my-2 text-gray-200 text-center lg:text-left secondary-font">
                 <div className="flex justify-center lg:block">
                   <span class="iconify" data-icon="noto-v1:waving-hand"></span>
                 </div>
