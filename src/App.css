@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  font-family: 'Rowdies', cursive;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Rowdies", cursive;
 }
 
 .App-logo {

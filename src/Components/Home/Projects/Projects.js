@@ -9,8 +9,8 @@ import { useHistory } from "react-router";
 const Projects = () => {
   const history = useHistory();
   return (
-    <div className="lg:mx-40 xl:mx-64" id="projects">
-      <div className="mx-auto my-5 lg:text-left lg:ml-2 pt-20">
+    <div className="lg:px-40 px-8" id="projects">
+      <div className="lg:mx-auto my-5 lg:text-left lg:ml-2 pt-20">
         <h1
           className="text-3xl font-thin leading-none mb-2 text-gray-400"
           data-aos="fade-right"
@@ -28,9 +28,9 @@ const Projects = () => {
         </h1>
       </div>
       {/* first project section */}
-      <section className="text-gray-200 flex items-center">
+      <section className="text-gray-200 flex justify-center items-center">
         <div
-          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md bg-gray-900"
+          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 rounded-md bg-gray-900 my-2"
           data-aos="fade-left"
           data-aos-delay="50"
           data-aos-duration="600"
@@ -62,7 +62,7 @@ const Projects = () => {
                 </button>
                 <p className="hidden lg:block">
                   Technology Used : <br />
-                  <div className="flex gap-2 items-center justify-center">
+                  <div className="flex gap-2 items-center justify-start">
                     <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
                       React
                     </p>{" "}
@@ -101,10 +101,10 @@ const Projects = () => {
         </div>
       </section>
       {/* second project section */}
-      <section className="text-gray-200 flex items-center">
+      <section className="text-gray-200 flex justify-center items-center">
         <div
-          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md"
-          data-aos="fade-right"
+          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-12 lg:px-2 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md my-1"
+          data-aos="fade-left"
           data-aos-delay="50"
           data-aos-duration="600"
           data-aos-easing="ease-in-out"
@@ -112,16 +112,6 @@ const Projects = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-center"
         >
-          <a
-            href="https://shift-us-delivery-service.web.app/"
-            className="flex items-center justify-center mt-8 lg:mt-0 image"
-          >
-            <img
-              src={shiftus}
-              alt=""
-              className="h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
-            />
-          </a>
           <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-500">
               <div>
@@ -144,9 +134,9 @@ const Projects = () => {
                 >
                   More Details
                 </button>
-                <p className="my-2 text-gray-100 hidden lg:block">
+                <p className="hidden lg:block">
                   Technology Used : <br />
-                  <div className="flex gap-2 items-center justify-center">
+                  <div className="flex gap-2 items-center justify-start">
                     <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       React
                     </p>{" "}
@@ -170,12 +160,24 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <div>
+            <a
+              href="https://shift-us-delivery-service.web.app/"
+              className="flex items-center justify-center mt-8 image"
+            >
+              <img
+                src={shiftus}
+                alt=""
+                className="h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+              />
+            </a>
+          </div>
         </div>
       </section>
       {/* third project section */}
       <section className="text-gray-200 flex items-center">
         <div
-          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-8 lg:flex-row lg:justify-center gap-32 border border-gray-50 rounded-md bg-gray-900 lg:px-2"
+          className="container lg:flex flex-col justify-center lg:mx-auto sm:py-12 lg:py-8 lg:flex-row lg:justify-center gap-32 rounded-md bg-gray-900 lg:px-2 my-2"
           data-aos="fade-left"
           data-aos-delay="50"
           data-aos-duration="600"

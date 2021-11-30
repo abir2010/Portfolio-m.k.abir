@@ -23,12 +23,23 @@ const Contact = () => {
       );
   };
   return (
-    <div className="mt-24" id="contact">
-      <section className="text-gray-100 body-font">
-        <div className="lg:px-32 mt-4 lg:mx-auto lg:flex items-center justify-center">
-          <div
-            className="lg:text-left container"
-          >
+    <div className="lg:px-32 pt-20" id="contact">
+      <h1
+        className="container lg:mx-auto text-2xl font-thin leading-none mb-2  text-gray-400 lg:text-left"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        Services
+        <p className="text-4xl lg:text-6xl mt-2 text-gray-200">What I Offer</p>
+      </h1>
+      <section className="text-gray-100 body-font mt-12 lg:mb-24">
+        <div className="lg:mx-auto lg:flex items-center justify-center">
+          <div className="lg:text-left container">
             <h1 className="text-3xl font-thin leading-none mb-2 text-gray-400">
               Feel free to
               <p className="text-6xl my-2 text-gray-200 text-center lg:text-left">
@@ -43,7 +54,7 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="md:w-1/2 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+            className="md:w-1/2 rounded-lg py-3 px-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 bg-gray-900"
             data-aos="zoom-in"
             data-aos-delay="100"
             data-aos-duration="600"

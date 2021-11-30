@@ -81,7 +81,7 @@ const Banner = () => {
             </div>
           </div>
           <div
-            className="lg:flex items-center justify-center lg:p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            className="flex items-center justify-center lg:p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
             data-aos="zoom-in"
             data-aos-delay="300"
             data-aos-duration="800"

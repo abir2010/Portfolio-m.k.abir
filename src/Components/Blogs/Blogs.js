@@ -4,7 +4,7 @@ const Blogs = () => {
   return (
     <div>
       <section
-        className="text-gray-200 lg:mx-40 xl:mx-64"
+        className="text-gray-200 lg:mx-40 xl:mx-64 p-4"
         data-aos="zoom-in"
         data-aos-delay="100"
         data-aos-duration="600"

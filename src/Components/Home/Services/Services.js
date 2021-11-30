@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div className="" id="services">
-      <section className="text-gray-200 lg:pt-16 lg:mx-40 xl:mx-64">
+      <section className="text-gray-200 lg:pt-8 lg:mx-40">
         <h1
           className="container lg:mx-auto text-2xl font-thin leading-none mb-2  text-gray-400 lg:text-left lg:ml-6"
           data-aos="fade-right"

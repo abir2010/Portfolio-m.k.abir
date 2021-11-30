@@ -3,8 +3,8 @@ import React from "react";
 const Aboutme = () => {
   return (
     <div id="about">
-      <section className="text-gray-200 lg:mx-40 xl:mx-64">
-        <div className="container lg:flex flex-col justify-center items-center lg:p-6 mx-auto sm:py-12 lg:py-32 lg:flex-row lg:justify-center">
+      <section className="text-gray-200 mx-5 lg:mx-40 xl:mx-64">
+        <div className="container lg:flex flex-col justify-center items-center lg:px-6 mx-auto sm:py-12 lg:py-32 lg:flex-row lg:justify-center">
           <div></div>
           <div className="lg:flex flex-col justify-center text-center rounded-sm lg:text-left">
             <div
@@ -38,25 +38,31 @@ const Aboutme = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-4 items-center justify-center lg:flex-row sm:space-y-0 sm:space-x-4">
-              <a href="https://github.com/abir2010">
-                <span
-                  className="iconify text-2xl hover:text-purple-700"
-                  data-icon="eva:github-fill"
-                ></span>
-              </a>
-              <a href="https://linkedin.com/in/m-k-abir">
-                <span
-                  className="iconify text-2xl hover:text-purple-700"
-                  data-icon="eva:linkedin-fill"
-                ></span>
-              </a>
-              <a href="https://www.facebook.com/Kaiser.Abir">
-                <span
-                  className="iconify text-2xl hover:text-purple-700"
-                  data-icon="eva:facebook-fill"
-                ></span>
-              </a>
+            <div className="flex space-y-4 items-center justify-center lg:flex-row sm:space-y-0 sm:space-x-4 mb-10 lg:mb-0">
+              <div className="lg:mt-0 mt-4">
+                <a href="https://github.com/abir2010">
+                  <span
+                    className="iconify text-2xl hover:text-purple-700"
+                    data-icon="eva:github-fill"
+                  ></span>
+                </a>
+              </div>
+              <div className="mx-8">
+                <a href="https://linkedin.com/in/m-k-abir">
+                  <span
+                    className="iconify text-2xl hover:text-purple-700"
+                    data-icon="eva:linkedin-fill"
+                  ></span>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/Kaiser.Abir">
+                  <span
+                    className="iconify text-2xl hover:text-purple-700"
+                    data-icon="eva:facebook-fill"
+                  ></span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
