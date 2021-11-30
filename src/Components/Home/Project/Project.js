@@ -67,7 +67,7 @@ const Project = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="p-3">
+          <div className="p-3 lg:hidden block">
               <img src={project?.image1} alt="" className="my-3 rounded-xl"/>
               <img src={project?.image2} alt="" className="my-3 rounded-xl" />
               <img src={project?.image3} alt="" className="my-3 rounded-xl" />
