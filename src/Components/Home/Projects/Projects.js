@@ -3,9 +3,11 @@ import "./projects.css";
 import bikez from "../../../images/bikez/main-2.png";
 import shiftus from "../../../images/shiftus/main-1.png";
 import medCity from "../../../images/med-city/main-3.png";
+import { useHistory } from "react-router";
 // import ParticlesBackground from "../Particles/ParticlesBackground";
 
 const Projects = () => {
+  const history = useHistory();
   return (
     <div className="lg:mx-40 xl:mx-64" id="projects">
       <div className="mx-auto my-5 lg:text-left lg:ml-2 pt-20">
@@ -52,7 +54,10 @@ const Projects = () => {
                   user an admin. Therefor this website making project was an
                   integration of both Front ena and Back end side.
                 </p>
-                <button className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500">
+                <button
+                  onClick={() => history.push("/projects/1")}
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                >
                   More Details
                 </button>
                 <p className="hidden lg:block">
@@ -133,7 +138,10 @@ const Projects = () => {
                   making project was an integration of both Front ena and Back
                   end side.
                 </p>
-                <button className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500">
+                <button
+                  onClick={() => history.push("/projects/2")}
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                >
                   More Details
                 </button>
                 <p className="my-2 text-gray-100 hidden lg:block">
@@ -192,7 +200,10 @@ const Projects = () => {
                   doctors. Therefore this website making project was a Front End
                   based work project.
                 </p>
-                <button className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500">
+                <button
+                  onClick={() => history.push("/projects/3")}
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                >
                   More Details
                 </button>
                 <p className="hidden lg:block">

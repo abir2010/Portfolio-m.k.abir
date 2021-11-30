@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Bikez Online Shop",
     "image1": "https://i.ibb.co/6bskzBk/bike-1.png",
     "image2": "https://i.ibb.co/HDZHYSv/bike-2.png",
@@ -11,9 +12,12 @@
     "siteInfo2": "An user can shop and save for later.",
     "siteInfo3": "In the dashboard section user can see his list of choosen product from he/she can cancel the order also.",
     "siteInfo4": "User can login using Google or creating a free account.",
-    "siteInfo5": "User can review about the website and can give rating about the website."
+    "siteInfo5": "User can review about the website and can give rating about the website.",
+    "client": "https://github.com/abir2010/Bikez-client-side",
+    "server": "https://github.com/abir2010/Bikez-server-side"
   },
   {
+    "id": 2,
     "title": "Shiftus Limited",
     "image1": "https://i.ibb.co/gy1hzc7/shift-4.png",
     "image2": "https://i.ibb.co/80Gk3gR/shift-6.png",
@@ -25,9 +29,12 @@
     "siteInfo2": "This project is built for a international company named shiftus.This company delivers every kinds of product for their customers.",
     "siteInfo3": "This Delivery Company website has all the features you need.Like AIR FREIGHT SERVICES,ROAD FREIGHT SERVICES,CARGO SHIPPING SERVICES,CITY VAN SERVICE and many more.",
     "siteInfo4": "One user can login with his mail account and add any service as his need and can remove also in any case.",
-    "siteInfo5": "If an user is logged out he/she can not able to get his service and can not get information of his bookings."
+    "siteInfo5": "If an user is logged out he/she can not able to get his service and can not get information of his bookings.",
+    "client": "https://github.com/abir2010/Shiftus-company-client-side",
+    "server": "https://github.com/abir2010/Shiftus-company-server-side"
   },
   {
+    "id": 3,
     "title": "Med-City Medical Center",
     "image1": "https://i.ibb.co/X3Tg2HM/med-2.png",
     "image2": "https://i.ibb.co/3mxh7Ns/med-3.png",
@@ -39,6 +46,8 @@
     "siteInfo2": "Med-City medical center is like a online clinic for those people who are in emergency.",
     "siteInfo3": "One can get all the medical care at anytime through this online platform.",
     "siteInfo4": "This project is based on React and React-Router.",
-    "siteInfo5": "Firebase Authentication has been used for the specific people to get service."
+    "siteInfo5": "Firebase Authentication has been used for the specific people to get service.",
+    "client": "https://github.com/abir2010/Med-City-Medical",
+    "server": ""
   }
 ]

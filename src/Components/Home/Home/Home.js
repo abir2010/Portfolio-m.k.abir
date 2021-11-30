@@ -1,23 +1,25 @@
-import React from 'react';
-import Aboutme from '../Aboutme/Aboutme';
-import Banner from '../Banner/Banner';
-import Contact from '../Contact/Contact';
-import Projects from '../Projects/Projects';
-import Services from '../Services/Services';
+import React from "react";
+import Header from "../../Header/Header";
+import Aboutme from "../Aboutme/Aboutme";
+import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
+import Services from "../Services/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const Home = () => {
-    return (
-        <div>
-            <Banner></Banner>
-            <Aboutme></Aboutme>
-            <Services></Services>
-            <Projects></Projects>
-            <Contact></Contact>
-        </div>
-    );
+  return (
+    <div>
+      <Header/>
+      <Banner></Banner>
+      <Aboutme></Aboutme>
+      <Services></Services>
+      <Projects></Projects>
+      <Contact></Contact>
+    </div>
+  );
 };
 
 export default Home;
