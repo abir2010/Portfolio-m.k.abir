@@ -4,7 +4,6 @@ import { saveAs } from "file-saver";
 import "./Banner.scss";
 import bannerImg from "../../../images/banner-img/my-bg2.png";
 import ParticlesBackground from "../Particles/ParticlesBackground";
-import Particles from "react-particles-js";
 
 const Banner = () => {
   const saveFile = () => {
@@ -61,7 +60,7 @@ const Banner = () => {
             </p>
             <div className="sm:flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-800">
               <button onClick={saveFile} class="portfolio-experiment">
-                <a>
+                <a href="/">
                   <span class="text">Download CV</span>
                   <span class="line -right"></span>
                   <span class="line -top"></span>

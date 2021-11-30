@@ -25,16 +25,9 @@ const Contact = () => {
   return (
     <div className="mt-24" id="contact">
       <section className="text-gray-100 body-font">
-        <div className="container mt-4 lg:mx-auto lg:flex items-center justify-center">
+        <div className="lg:px-32 mt-4 lg:mx-auto lg:flex items-center justify-center">
           <div
             className="lg:text-left container"
-            data-aos="fade-left"
-            data-aos-delay="100"
-            data-aos-duration="600"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
           >
             <h1 className="text-3xl font-thin leading-none mb-2 text-gray-400">
               Feel free to

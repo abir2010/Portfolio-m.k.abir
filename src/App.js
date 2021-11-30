@@ -2,9 +2,12 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Blogs from "./Components/Blogs/Blogs";
+import initAuth from "./Components/Firebase/firebase.init";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home/Home";
 import Spinner from "./Components/Spinner/Spinner";
+
+initAuth();
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
