@@ -16,13 +16,13 @@ const Blogs = () => {
         <div className="container lg:flex flex-col justify-center items-center lg:p-6 mx-auto sm:py-12 lg:py-32 lg:flex-row lg:justify-center">
           <div></div>
           <div className="lg:flex flex-col justify-center text-center rounded-sm lg:text-left">
-            <h1 className="text-2xl font-thin leading-none sm:text-2xl text-gray-400">
+            <h1 className="text-2xl leading-none sm:text-2xl text-gray-400 font-thin">
               Blogs
-              <p className="text-3xl lg:text-6xl text-gray-200 mt-3">
+              <p className="text-3xl lg:text-6xl text-gray-200 mt-3 secondary-font">
                 Blog section coming soon...
               </p>
             </h1>
-            <p className="mt-6 mb-4 text-sm text-gray-400 font-thin sm:mb-6">
+            <p className="mt-6 mb-4 text-sm text-gray-400 secondary-font font-bold sm:mb-6">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ut
               eveniet excepturi quisquam odio, ea omnis et a quas deleniti
               corporis obcaecati saepe consequatur sunt quo at, numquam nemo

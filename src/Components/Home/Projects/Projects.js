@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="lg:px-40 px-8" id="projects">
       <div className="lg:mx-auto my-5 lg:text-left lg:ml-2 pt-20">
         <h1
-          className="text-3xl leading-none mb-2 text-gray-400"
+          className="text-3xl leading-none mb-2 text-gray-400 font-thin"
           data-aos="fade-right"
           data-aos-delay="100"
           data-aos-duration="600"
@@ -44,7 +44,7 @@ const Projects = () => {
               <div>
                 <p className="text-sm">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Bikez Online Shop</p>
-                <p className="text-sm p-2 text-gray-400 secondary-font">
+                <p className="text-sm p-2 text-gray-400 secondary-font font-bold">
                   Bikez is a simple e-commerce website for buying and selling
                   by-cycles. This website is based on two different audience one
                   is user who can register and login using google account. And
@@ -62,23 +62,23 @@ const Projects = () => {
                 </button>
                 <p className="hidden lg:block">
                   Technology Used : <br />
-                  <div className="flex gap-2 items-center justify-start">
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                  <div className="flex gap-2 items-center justify-start font-thin">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       React
                     </p>{" "}
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Node
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Express
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Tailwind
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       MongoDB
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Firebase
                     </p>
                   </div>
@@ -117,7 +117,7 @@ const Projects = () => {
               <div>
                 <p className="text-sm">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Shiftus Limited</p>
-                <p className="text-sm p-2 text-gray-400 secondary-font">
+                <p className="text-sm p-2 text-gray-400 secondary-font font-bold">
                   Shiftus Limited is a simple product delivery website for
                   deliver products accross the world. This website is based on
                   two different audience one is user who can register and login
@@ -136,7 +136,7 @@ const Projects = () => {
                 </button>
                 <p className="hidden lg:block">
                   Technology Used : <br />
-                  <div className="flex gap-2 items-center justify-start">
+                  <div className="flex gap-2 items-center justify-start font-thin">
                     <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       React
                     </p>{" "}
@@ -193,7 +193,7 @@ const Projects = () => {
                 <p className="text-4xl text-gray-50 my-4">
                   Med-City Medical Center
                 </p>
-                <p className="text-sm p-2 text-gray-400 secondary-font">
+                <p className="text-sm p-2 text-gray-400 secondary-font font-bold">
                   Med-city Medical center is a medical service provider website
                   for patients. This website is based on users.This user
                   friendly website have the firebase authentication so that an
@@ -210,20 +210,20 @@ const Projects = () => {
                 </button>
                 <p className="hidden lg:block">
                   Technology Used : <br />
-                  <div className="flex gap-2 items-center justify-start">
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                  <div className="flex gap-2 items-center justify-start font-thin">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       HTML
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       CSS
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       React
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Tailwind
                     </p>
-                    <p className="bg-gray-900 text-gray-100 px-2 py-1 rounded-sm">
+                    <p className="bg-gray-800 text-gray-100 px-2 py-1 rounded-sm">
                       Firebase
                     </p>
                   </div>

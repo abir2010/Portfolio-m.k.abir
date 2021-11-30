@@ -42,13 +42,13 @@ const Banner = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h1 className="text-xl lg:text-3xl font-thin leading-none mb-2 text-gray-400 secondary-font font-bold">
+            <h1 className="text-2xl lg:text-3xl font-thin leading-none mb-2 text-gray-400 secondary-font font-bold">
               Hello people I'm
-              <p className="lg:text-9xl mt-2 text-gray-200 text-5xl">
+              <p className="lg:text-9xl mt-2 text-gray-200 text-7xl">
                 M.K.Abir
               </p>
             </h1>
-            <p className="mb-8 text-2xl lg:text-4xl text-purple-600 sm:mb-12 primary-font">
+            <p className="mb-8 text-4xl lg:text-4xl text-purple-600 sm:mb-12 primary-font">
               <Typewriter
                 options={{
                   autoStart: true,

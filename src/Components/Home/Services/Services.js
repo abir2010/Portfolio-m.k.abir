@@ -5,7 +5,7 @@ const Services = () => {
     <div className="" id="services">
       <section className="text-gray-200 lg:pt-8 lg:mx-40">
         <h1
-          className="container lg:mx-auto text-2xl leading-none mb-2  text-gray-400 lg:text-left lg:ml-6 "
+          className="container lg:mx-auto text-2xl leading-none mb-2  text-gray-400 lg:text-left lg:ml-6 font-thin"
           data-aos="fade-right"
           data-aos-delay="100"
           data-aos-duration="600"
@@ -40,10 +40,10 @@ const Services = () => {
                   ></span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <h4 className="text-xl">
+                  <h4 className="text-xl secondary-font font-bold">
                     Front-End Web Development <br /> ( React )
                   </h4>
-                  <p className="text-sm text-gray-400 mt-2">
+                  <p className="text-sm text-gray-400 mt-2 secondary-font font-bold">
                     I will develop any kind of projects using react js, a
                     javascripts framework.I will design your front end using
                     react and css frameworks.
@@ -69,10 +69,10 @@ const Services = () => {
                   ></span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <h4 className="text-xl">
+                  <h4 className="text-xl secondary-font font-bold">
                     Full Stack Web Development <br /> ( React and Node )
                   </h4>
-                  <p className="text-sm text-gray-400 mt-2">
+                  <p className="text-sm text-gray-400 mt-2 secondary-font font-bold">
                     I will develop your website using React (Front-end) and Node
                     js (Back-end). It will be a full stack project based on your
                     website.
@@ -98,10 +98,10 @@ const Services = () => {
                   ></span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <h4 className="text-xl">
+                  <h4 className="text-xl secondary-font font-bold">
                     Project Using HTML , CSS , Javascript
                   </h4>
-                  <p className="text-sm text-gray-400 mt-2">
+                  <p className="text-sm text-gray-400 mt-2 secondary-font font-bold">
                     I will work on the projects like front end based and uses of
                     HTML , CSS , Javascript. I have done so many projects using
                     these three technologies.

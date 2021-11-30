@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div className="lg:px-32 pt-20" id="contact">
       <h1
-        className="container lg:mx-auto text-2xl leading-none mb-2  text-gray-400 lg:text-left"
+        className="container lg:mx-auto text-2xl leading-none mb-2 font-thin text-gray-400 lg:text-left"
         data-aos="fade-right"
         data-aos-delay="100"
         data-aos-duration="600"
