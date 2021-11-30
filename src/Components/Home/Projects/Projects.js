@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="lg:px-40 px-8" id="projects">
       <div className="lg:mx-auto my-5 lg:text-left lg:ml-2 pt-20">
         <h1
-          className="text-3xl font-thin leading-none mb-2 text-gray-400"
+          className="text-3xl leading-none mb-2 text-gray-400"
           data-aos="fade-right"
           data-aos-delay="100"
           data-aos-duration="600"
@@ -22,7 +22,7 @@ const Projects = () => {
           data-aos-anchor-placement="top-center"
         >
           Here are some
-          <p className="text-4xl lg:text-6xl mt-2 text-gray-200">
+          <p className="text-4xl lg:text-6xl mt-2 text-gray-200 secondary-font">
             My Recent Works
           </p>
         </h1>
@@ -44,7 +44,7 @@ const Projects = () => {
               <div>
                 <p className="text-sm">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Bikez Online Shop</p>
-                <p className="text-sm p-2">
+                <p className="text-sm p-2 text-gray-400 secondary-font">
                   Bikez is a simple e-commerce website for buying and selling
                   by-cycles. This website is based on two different audience one
                   is user who can register and login using google account. And
@@ -56,7 +56,7 @@ const Projects = () => {
                 </p>
                 <button
                   onClick={() => history.push("/projects/1")}
-                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500 secondary-font"
                 >
                   More Details
                 </button>
@@ -117,7 +117,7 @@ const Projects = () => {
               <div>
                 <p className="text-sm">FEATURED</p>
                 <p className="text-4xl text-gray-50 my-4">Shiftus Limited</p>
-                <p className="text-sm p-2">
+                <p className="text-sm p-2 text-gray-400 secondary-font">
                   Shiftus Limited is a simple product delivery website for
                   deliver products accross the world. This website is based on
                   two different audience one is user who can register and login
@@ -130,7 +130,7 @@ const Projects = () => {
                 </p>
                 <button
                   onClick={() => history.push("/projects/2")}
-                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500 secondary-font"
                 >
                   More Details
                 </button>
@@ -193,7 +193,7 @@ const Projects = () => {
                 <p className="text-4xl text-gray-50 my-4">
                   Med-City Medical Center
                 </p>
-                <p className="text-sm p-2">
+                <p className="text-sm p-2 text-gray-400 secondary-font">
                   Med-city Medical center is a medical service provider website
                   for patients. This website is based on users.This user
                   friendly website have the firebase authentication so that an
@@ -204,7 +204,7 @@ const Projects = () => {
                 </p>
                 <button
                   onClick={() => history.push("/projects/3")}
-                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500"
+                  className="bg-purple-700 px-2 py-1 text-gray-50 my-4 hover:bg-transparent hover:text-purple-500 secondary-font"
                 >
                   More Details
                 </button>

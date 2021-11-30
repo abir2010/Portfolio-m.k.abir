@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div className="lg:px-32 pt-20" id="contact">
       <h1
-        className="container lg:mx-auto text-2xl font-thin leading-none mb-2  text-gray-400 lg:text-left"
+        className="container lg:mx-auto text-2xl leading-none mb-2  text-gray-400 lg:text-left"
         data-aos="fade-right"
         data-aos-delay="100"
         data-aos-duration="600"
@@ -34,13 +34,13 @@ const Contact = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        Services
-        <p className="text-4xl lg:text-6xl mt-2 text-gray-200">What I Offer</p>
+        You can
+        <p className="text-4xl lg:text-6xl mt-2 text-gray-200 secondary-font">Contact Anytime</p>
       </h1>
       <section className="text-gray-100 body-font mt-12 lg:mb-24">
         <div className="lg:mx-auto lg:flex items-center justify-center">
           <div className="lg:text-left container">
-            <h1 className="text-3xl font-thin leading-none mb-2 text-gray-400">
+            <h1 className="text-3xl leading-none mb-2 text-gray-400">
               Feel free to
               <p className="text-6xl my-2 text-gray-200 text-center lg:text-left">
                 <div className="flex justify-center lg:block">
@@ -64,7 +64,7 @@ const Contact = () => {
             data-aos-anchor-placement="top-center"
           >
             <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-100">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-100 secondary-font">
                 NAME
               </label>
               <input
@@ -78,7 +78,7 @@ const Contact = () => {
             <div className="relative mb-4">
               <label
                 htmlFor="email"
-                className="leading-7 text-sm text-gray-100"
+                className="leading-7 text-sm text-gray-100 secondary-font"
               >
                 EMAIL
               </label>
@@ -93,7 +93,7 @@ const Contact = () => {
             <div className="relative mb-4">
               <label
                 htmlFor="message"
-                className="leading-7 text-sm text-gray-100"
+                className="leading-7 text-sm text-gray-100 secondary-font"
               >
                 YOUR MESSAGE
               </label>
@@ -108,14 +108,14 @@ const Contact = () => {
             <button
               type="submit"
               value="send"
-              className="text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 text-lg"
+              className="text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 text-lg secondary-font"
             >
               CONTACT
             </button>
             <button
               type="reset"
               value="Reset data"
-              className="text-white border-0 py-2 px-8 focus:outline-none text-sm"
+              className="text-white border-0 py-2 px-8 focus:outline-none text-sm secondary-font"
             >
               Reset Form
             </button>

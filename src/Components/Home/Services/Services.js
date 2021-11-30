@@ -5,7 +5,7 @@ const Services = () => {
     <div className="" id="services">
       <section className="text-gray-200 lg:pt-8 lg:mx-40">
         <h1
-          className="container lg:mx-auto text-2xl font-thin leading-none mb-2  text-gray-400 lg:text-left lg:ml-6"
+          className="container lg:mx-auto text-2xl leading-none mb-2  text-gray-400 lg:text-left lg:ml-6 "
           data-aos="fade-right"
           data-aos-delay="100"
           data-aos-duration="600"
@@ -15,7 +15,7 @@ const Services = () => {
           data-aos-anchor-placement="top-center"
         >
           Services
-          <p className="text-4xl lg:text-6xl mt-2 text-gray-200">
+          <p className="text-4xl lg:text-6xl mt-2 text-gray-200 secondary-font">
             What I Offer
           </p>
         </h1>

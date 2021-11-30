@@ -6,7 +6,6 @@ import { Swiper } from "../../../../node_modules/swiper/react/swiper";
 import { SwiperSlide } from "../../../../node_modules/swiper/react/swiper-slide";
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import "./Project.css";
-import headerIcon from '../../../images/logo/main-logo-1.png'
 import Header from "../../Header/Header";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
@@ -22,8 +21,8 @@ const Project = () => {
   const project = projects.find((data) => data.id == id);
   return (
     <div>
-        <img src="" alt="" className="rounded-full w-12"/>
-        <Header/>
+      <img src="" alt="" className="rounded-full w-12" />
+      <Header />
       <div
         style={{
           position: "fixed",
@@ -68,27 +67,37 @@ const Project = () => {
             </Swiper>
           </div>
           <div className="p-3 lg:hidden block">
-              <img src={project?.image1} alt="" className="my-3 rounded-xl"/>
-              <img src={project?.image2} alt="" className="my-3 rounded-xl" />
-              <img src={project?.image3} alt="" className="my-3 rounded-xl" />
+            <img src={project?.image1} alt="" className="my-3 rounded-xl" />
+            <img src={project?.image2} alt="" className="my-3 rounded-xl" />
+            <img src={project?.image3} alt="" className="my-3 rounded-xl" />
           </div>
         </>
-        <div>
+        <div className="lg:px-0 px-4">
           <div className="container my-5 lg:ml-2 pt-8 lg:pt-20">
-            <h1 className="text-3xl font-thin leading-none mb-2 text-gray-400 flex lg:justify-center lg:mr-0 mr-4">
+            <h1 className="text-3xl leading-none mb-2 text-gray-400 flex lg:justify-center lg:mr-0 lg:mr-4">
               <div>
-                <p className="text-4xl lg:text-6xl mt-2 text-gray-200 my-4">
+                <p className="text-4xl lg:text-6xl mt-2 text-gray-200 my-4 secondary-font">
                   {project?.title}
                 </p>
-                <p className="text-sm text-gray-400 my-3">
+                <p className="text-sm font-bold secondary-font text-gray-400 my-3">
                   {project?.description}
                 </p>
-                <p className="lg:px-72 text-sm text-gray-300 my-3 text-center">
+                <p className="lg:px-72 text-sm font-bold secondary-font text-gray-300 my-3 text-left">
+                  <br />
+                  <br />
+                  <span className="text-xl">FEATURES : </span>
+                  <br />
+                  <br />
                   1. {project?.siteInfo1} <br />
+                  <br />
                   2. {project?.siteInfo2} <br />
+                  <br />
                   3. {project?.siteInfo3} <br />
+                  <br />
                   4. {project?.siteInfo4} <br />
+                  <br />
                   5. {project?.siteInfo5} <br />
+                  <br />
                 </p>
                 <div className="">
                   <a href={project?.client}>

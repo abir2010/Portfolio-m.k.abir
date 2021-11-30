@@ -18,17 +18,17 @@ const Aboutme = () => {
               data-aos-anchor-placement="top-center"
             >
               About Me
-              <p className="text-3xl lg:text-6xl text-gray-200 mt-3">
+              <p className="text-3xl lg:text-6xl text-gray-200 mt-3 secondary-font">
                 I'm a Full Stack web developer working from home
               </p>
-              <p className="mt-8 mb-4 text-sm text-gray-400 font-thin sm:mb-6">
+              <p className="mt-8 mb-4 text-sm font-bold text-gray-400 sm:mb-6 secondary-font">
                 Innovative Full Stack Developer providing high-impact web app
                 development. Sought opportunities to grow my experience and
                 develop my skills, happily accepting challenging projects and
                 seeking a progressive organization that provides the opportunity
                 for development.
               </p>
-              <p className="my-4 text-sm text-gray-400 font-thin sm:mb-6">
+              <p className="my-4 text-sm text-gray-400 font-bold sm:mb-6 secondary-font">
                 For the last one year I have improved myself a lot on the field
                 of programming basically on the web development side. I have
                 done many personal project using react and also some full stack

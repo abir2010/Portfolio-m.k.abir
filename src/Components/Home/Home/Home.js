@@ -7,6 +7,7 @@ import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "../../Footer/Footer";
 AOS.init();
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Services></Services>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer/>
     </div>
   );
 };

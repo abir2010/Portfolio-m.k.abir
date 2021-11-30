@@ -1,9 +1,15 @@
 .single_nav:hover{
   color: rgb(143, 23, 242);
   border-bottom: 2px solid rgb(162, 0, 255);
+  box-shadow: 0 0 10px gray;
   transition: color 300ms ease-in-out;
 }
 .nav-bar{
   width: 100vw;
   z-index: 1000;
+}
+.icon:hover{
+  border: 2px solid white;
+  box-shadow: 2px 2px 20px gray;
+  transition: box-shadow 200ms ease-in-out;
 }

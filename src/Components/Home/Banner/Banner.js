@@ -42,13 +42,13 @@ const Banner = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-            <h1 className="text-xl lg:text-3xl font-thin leading-none mb-2 text-gray-400">
+            <h1 className="text-xl lg:text-3xl font-thin leading-none mb-2 text-gray-400 secondary-font font-bold">
               Hello people I'm
               <p className="lg:text-9xl mt-2 text-gray-200 text-5xl">
                 M.K.Abir
               </p>
             </h1>
-            <p className=" mb-8 text-2xl lg:text-4xl text-purple-600 sm:mb-12">
+            <p className="mb-8 text-2xl lg:text-4xl text-purple-600 sm:mb-12 primary-font">
               <Typewriter
                 options={{
                   autoStart: true,
@@ -68,7 +68,7 @@ const Banner = () => {
                 }}
               />
             </p>
-            <div className="sm:flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-800">
+            <div className="sm:flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start text-gray-800 secondary-font">
               <button onClick={saveFile} class="portfolio-experiment">
                 <a href="/">
                   <span class="text">Download CV</span>
