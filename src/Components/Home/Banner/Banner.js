@@ -35,8 +35,8 @@ const Banner = () => {
           style={{
             position: "absolute",
             zIndex: -1,
-            width: "800px",
-            height: "1000px",
+            width: "100%",
+            height: "100%",
           }}
           className="lg:hidden block"
         >

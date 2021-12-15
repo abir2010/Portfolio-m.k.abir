@@ -13,7 +13,7 @@ AOS.init();
 const Home = () => {
   return (
     <div>
-      <Header/>
+      <Header></Header>
       <Banner></Banner>
       <Aboutme></Aboutme>
       <Services></Services>
