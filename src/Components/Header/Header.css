@@ -8,8 +8,15 @@
   width: 100vw;
   z-index: 1000;
 }
+.icon{
+  margin-top: 25px;
+}
 .icon:hover{
   border: 2px solid white;
   box-shadow: 2px 2px 20px gray;
   transition: box-shadow 200ms ease-in-out;
+}
+.mbl-nav{
+  transform: scale(1.2);
+  transition: transform 300ms ease-in-out;
 }

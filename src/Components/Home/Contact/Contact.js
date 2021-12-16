@@ -43,7 +43,7 @@ const Contact = () => {
           Contact Anytime
         </p>
       </h1>
-      <section className="text-gray-100 body-font mt-12 lg:mb-24">
+      <section className="container text-gray-100 body-font mt-12 lg:mb-24 lg:mx-auto">
         <div className="lg:mx-auto lg:flex items-center justify-center">
           <div className="lg:text-left container">
             <h1 className="text-3xl leading-none mb-2 text-gray-400">
